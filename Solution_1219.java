@@ -13,7 +13,6 @@ public class Solution_1219 {
 			for (int j = 0; j < len; j++) {
 				maps[sc.nextInt()][sc.nextInt()] = true;
 			}
-			
 			dfs(0);
 			if(res) {
 				System.out.println("#"+iT+" 1");
